@@ -1,0 +1,38 @@
+{
+  "name": "danieltrabalhonode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBadalado/NodeJS"
+  },
+  "author": "Daniel Junior",
+  "licence": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielBadalado/NodeJS/issues"
+  },
+  "homepage": "https://github.com/DanielBadalado/NodeJS#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "devenv": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.9.3",
+    "node": "^18.20.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^3.1.0"
+  }
+}
